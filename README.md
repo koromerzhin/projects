@@ -20,7 +20,13 @@
 
 | projet | description |
 |--|--|
+| ansible | Scripts d'installation pour mes machines |
+| check-repository | Check l'état de mes différents dépots publics |
+| crawler | Crawler l'intégralité d'un site Internet |
+| docker | Liste de mes images docker |
+| gist-box | workflow for github |
 | labstag | Site Internet sous Symfony |
+| userscripts | Userscripts |
 
 ## Need
 

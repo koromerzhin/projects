@@ -1,3 +1,21 @@
 [submodule "labstag"]
 	path = labstag
 	url = git@github.com:koromerzhin/labstag.git
+[submodule "docker"]
+	path = docker
+	url = git@github.com:koromerzhin/docker.git
+[submodule "gist-box"]
+	path = gist-box
+	url = git@github.com:koromerzhin/gist-box.git
+[submodule "crawler"]
+	path = crawler
+	url = git@github.com:koromerzhin/crawler.git
+[submodule "check-repository"]
+	path = check-repository
+	url = git@github.com:koromerzhin/check-repository.git
+[submodule "ansible"]
+	path = ansible
+	url = git@github.com:koromerzhin/ansible.git
+[submodule "userscripts"]
+	path = userscripts
+	url = git@github.com:koromerzhin/userscripts.git
