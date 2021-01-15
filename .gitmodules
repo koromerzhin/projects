@@ -1,0 +1,3 @@
+[submodule "labstag"]
+	path = labstag
+	url = git@github.com:koromerzhin/labstag.git
