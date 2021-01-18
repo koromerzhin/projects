@@ -36,5 +36,9 @@ git-check: ## CHECK before
 git-submodule: ## Git submodules
 	@git submodule update --init --recursive --remote
 
+git-update: ## Git submodule update
+	git pull origin develop
+	git submodule foreach git pull origin develop
+
 linter-readme: ## linter README.md
 	@npm run linter-markdown README.md
