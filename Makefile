@@ -12,6 +12,7 @@ node_modules: package-lock.json
 	npm install
 
 install: node_modules ## Installation application
+	@make git-submodule -i
 
 contributors: ## Contributors
 	@npm run contributors
@@ -31,6 +32,9 @@ git-commit: ## Commit data
 git-check: ## CHECK before
 	@make contributors-check -i
 	@git status
+
+git-submodule: ## Git submodules
+	@git submodule update --init --recursive --remote
 
 linter-readme: ## linter README.md
 	@npm run linter-markdown README.md
