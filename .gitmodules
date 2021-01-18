@@ -19,3 +19,6 @@
 [submodule "userscripts"]
 	path = userscripts
 	url = git@github.com:koromerzhin/userscripts.git
+[submodule "traefikproxy"]
+	path = traefikproxy
+	url = git@github.com:koromerzhin/traefikproxy.git
