@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-SUPPORTED_COMMANDS := contributors git linter
+SUPPORTED_COMMANDS := contributors git linter docker
 SUPPORTS_MAKE_ARGS := $(findstring $(firstword $(MAKECMDGOALS)), $(SUPPORTED_COMMANDS))
 ifneq "$(SUPPORTS_MAKE_ARGS)" ""
   COMMAND_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
@@ -8,6 +8,8 @@ ifneq "$(SUPPORTS_MAKE_ARGS)" ""
 endif
 %:
 	@:
+
+.PHONY: docker
 
 help:
 	@grep -E '(^[a-zA-Z_-]+:.*?##.*$$)|(^##)' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}' | sed -e 's/\[32m##/[33m/'
@@ -33,6 +35,17 @@ else
 	@npm run contributors
 endif
 
+docker: ## Command for docker
+ifeq ($(COMMAND_ARGS),image-pull)
+	@git submodule foreach make docker image-pull
+else
+	@echo "ARGUMENT missing"
+	@echo "---"
+	@echo "make docker ARGUMENT"
+	@echo "---"
+	@echo "image-pull: docker image pull"
+endif
+
 git: ## Scripts GIT
 ifeq ($(COMMAND_ARGS),commit)
 	@npm run commit
@@ -44,6 +57,7 @@ else ifeq ($(COMMAND_ARGS),submodule)
 	@git submodule update --init --recursive --remote
 else ifeq ($(COMMAND_ARGS),update)
 	@git pull origin develop
+	@git submodule foreach git checkout develop
 	@git submodule foreach git pull origin develop
 else
 	@echo "ARGUMENT missing"
