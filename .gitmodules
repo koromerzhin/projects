@@ -22,3 +22,6 @@
 [submodule "traefikproxy"]
 	path = traefikproxy
 	url = git@github.com:koromerzhin/traefikproxy.git
+[submodule "portainer"]
+	path = portainer
+	url = git@github.com:koromerzhin/portainercontainer.git
