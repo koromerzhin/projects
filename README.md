@@ -13,15 +13,15 @@
 
 ## Infos
 
-| projet | description |
-|--|--|
-| ansible | Scripts d'installation pour mes machines |
-| check-repository | Check l'état de mes différents dépots publics |
-| crawler | Crawler l'intégralité d'un site Internet |
-| docker | Liste de mes images docker |
-| gist-box | workflow for github |
-| labstag | Site Internet sous Symfony |
-| userscripts | Userscripts |
+| projet | description | Continuous Integration |
+|--|--| -- |
+| ansible | Scripts d'installation pour mes machines | ![Continuous Integration](https://github.com/koromerzhin/ansible/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| check-repository | Check l'état de mes différents dépots publics | ![Continuous Integration](https://github.com/koromerzhin/check-repository/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| crawler | Crawler l'intégralité d'un site Internet | ![Continuous Integration](https://github.com/koromerzhin/crawler/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| docker | Liste de mes images docker | ![Continuous Integration](https://github.com/koromerzhin/docker/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| gist-box | workflow for github | ![Continuous Integration](https://github.com/koromerzhin/gist-box/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| labstag | Site Internet sous Symfony | ![Continuous Integration](https://github.com/koromerzhin/labstag/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| userscripts | Userscripts | ![Continuous Integration](https://github.com/koromerzhin/userscripts/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 
 ## Need
 
