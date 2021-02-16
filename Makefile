@@ -6,11 +6,8 @@ ifneq "$(SUPPORTS_MAKE_ARGS)" ""
   COMMAND_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
   $(eval $(COMMAND_ARGS):;@:)
 endif
-%:
-	@:
 
-.PHONY: docker
-
+.PHONY: help
 help:
 	@grep -E '(^[a-zA-Z_-]+:.*?##.*$$)|(^##)' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}' | sed -e 's/\[32m##/[33m/'
 
@@ -20,11 +17,13 @@ package-lock.json: package.json
 node_modules: package-lock.json
 	@npm install
 
+.PHONY: install
 install: node_modules ## Installation application
 	@make git submodule -i
 	@git submodule foreach make install
 
-contributors: ## Contributors
+.PHONY: contributors
+contributors: node_modules ## Contributors
 ifeq ($(COMMAND_ARGS),add)
 	@npm run contributors add
 else ifeq ($(COMMAND_ARGS),check)
@@ -35,6 +34,7 @@ else
 	@npm run contributors
 endif
 
+.PHONY: docker
 docker: ## Command for docker
 ifeq ($(COMMAND_ARGS),image-pull)
 	@git submodule foreach make docker image-pull
@@ -46,7 +46,8 @@ else
 	@echo "image-pull: docker image pull"
 endif
 
-git: ## Scripts GIT
+.PHONY: git
+git: node_modules ## Scripts GIT
 ifeq ($(COMMAND_ARGS),commit)
 	@npm run commit
 else ifeq ($(COMMAND_ARGS),check)
@@ -70,7 +71,8 @@ else
 	@echo "update: submodule update"
 endif
 
-linter: ## Scripts Linter
+.PHONY: linter
+linter: node_modules ## Scripts Linter
 ifeq ($(COMMAND_ARGS),all)
 	@make linter readme -i
 else ifeq ($(COMMAND_ARGS),readme)
