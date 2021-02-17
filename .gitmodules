@@ -25,3 +25,6 @@
 [submodule "portainer"]
 	path = portainer
 	url = git@github.com:koromerzhin/portainercontainer.git
+[submodule "transmission"]
+	path = transmission
+	url = git@github.com:koromerzhin/transmissiontraefik.git
