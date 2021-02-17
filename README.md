@@ -15,6 +15,8 @@
 
 ## Infos
 
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 | projet | description | Continuous Integration |
 |--|--| -- |
 | ansible | Scripts d'installation pour mes machines | [![Continuous Integration](https://github.com/koromerzhin/ansible/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/ansible) |
@@ -25,6 +27,8 @@
 | labstag | Site Internet sous Symfony | [![Continuous Integration](https://github.com/koromerzhin/labstag/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/labstag) |
 | userscripts | Userscripts | [![Continuous Integration](https://github.com/koromerzhin/userscripts/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/userscripts) |
 | transmission | Transmission | [![Continuous Integration](https://github.com/koromerzhin/transmissiontraefik/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/transmissiontraefik) |
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 ## Need
 
 Software:
@@ -68,10 +72,10 @@ make help
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check [issues page](https://github.com/koromerzhin/projects/issues).
-You can also take a look at the [contributing guide](
-    https://github.com/koromerzhin/projects/blob/develop/CONTRIBUTING.md
-    ).
+Feel free to check
+[issues page](https://github.com/koromerzhin/projects/issues).
+You can also take a look at the
+[contributing guide](https://github.com/koromerzhin/projects/blob/develop/CONTRIBUTING.md).
 
 ## Show your support
 
@@ -81,9 +85,8 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2019 [koromerzhin](https://github.com/koromerzhin).
 
-This project is [MIT](
-    https://github.com/koromerzhin/projects/blob/develop/LICENSE
-    ) licensed.
+This project is
+[MIT](https://github.com/koromerzhin/projects/blob/develop/LICENSE) licensed.
 
 ## ✨ Contributors
 
@@ -106,7 +109,8 @@ Thanks goes to these wonderful people
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors)
+This project follows the
+[all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind welcome!
 
 ---
