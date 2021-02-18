@@ -28,3 +28,6 @@
 [submodule "transmission"]
 	path = transmission
 	url = git@github.com:koromerzhin/transmissiontraefik.git
+[submodule "repocheck"]
+	path = repocheck
+	url = git@github.com:koromerzhin/repocheck.git
