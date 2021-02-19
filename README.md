@@ -29,6 +29,7 @@
 | traefikproxy | Docker de configuration pour lancer TRAEFIK | [![Continuous Integration](https://github.com/koromerzhin/traefikproxy/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/traefikproxy) |
 | transmission | Transmission | [![Continuous Integration](https://github.com/koromerzhin/transmissiontraefik/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/transmissiontraefik) |
 | userscripts | Userscripts | [![Continuous Integration](https://github.com/koromerzhin/userscripts/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/userscripts) |
+| webcrawler | Web crawler | [![Continuous Integration](https://github.com/koromerzhin/webcrawler/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/webcrawler) |
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 ## Need

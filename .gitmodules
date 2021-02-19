@@ -28,3 +28,6 @@
 [submodule "repocheck"]
 	path = repocheck
 	url = git@github.com:koromerzhin/repocheck.git
+[submodule "webcrawler"]
+	path = webcrawler
+	url = git@github.com:koromerzhin/webcrawler.git
