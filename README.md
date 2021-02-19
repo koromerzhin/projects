@@ -20,7 +20,6 @@
 | projet | description | Continuous Integration |
 |--|--| -- |
 | ansible | Scripts d'installation pour mes machines | [![Continuous Integration](https://github.com/koromerzhin/ansible/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/ansible) |
-| check-repository | Check l'état de mes différents dépots publics | [![Continuous Integration](https://github.com/koromerzhin/check-repository/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/check-repository) |
 | crawler | Crawler l'intégralité d'un site Internet | [![Continuous Integration](https://github.com/koromerzhin/crawler/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/crawler) |
 | docker | Liste de mes images docker | [![Continuous Integration](https://github.com/koromerzhin/docker/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/docker) |
 | gist-box | workflow for github | [![Continuous Integration](https://github.com/koromerzhin/gist-box/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/gist-box) |

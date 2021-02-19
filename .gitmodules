@@ -10,9 +10,6 @@
 [submodule "crawler"]
 	path = crawler
 	url = git@github.com:koromerzhin/crawler.git
-[submodule "check-repository"]
-	path = check-repository
-	url = git@github.com:koromerzhin/check-repository.git
 [submodule "ansible"]
 	path = ansible
 	url = git@github.com:koromerzhin/ansible.git
