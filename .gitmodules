@@ -7,9 +7,6 @@
 [submodule "gist-box"]
 	path = gist-box
 	url = git@github.com:koromerzhin/gist-box.git
-[submodule "crawler"]
-	path = crawler
-	url = git@github.com:koromerzhin/crawler.git
 [submodule "ansible"]
 	path = ansible
 	url = git@github.com:koromerzhin/ansible.git
