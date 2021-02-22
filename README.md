@@ -21,7 +21,6 @@
 |--|--| -- |
 | ansible | Scripts d'installation pour mes machines | [![Continuous Integration](https://github.com/koromerzhin/ansible/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/ansible) |
 | docker | Liste de mes images docker | [![Continuous Integration](https://github.com/koromerzhin/docker/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/docker) |
-| gist-box | workflow for github | [![Continuous Integration](https://github.com/koromerzhin/gist-box/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/gist-box) |
 | labstag | Site Internet sous Symfony | [![Continuous Integration](https://github.com/koromerzhin/labstag/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/labstag) |
 | portainer | Gestion de docker avec portainer | [![Continuous Integration](https://github.com/koromerzhin/portainercontainer/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/portainercontainer) |
 | repocheck | Check mes repos github | [![Continuous Integration](https://github.com/koromerzhin/repocheck/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/repocheck) |
