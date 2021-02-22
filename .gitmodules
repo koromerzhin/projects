@@ -4,9 +4,6 @@
 [submodule "docker"]
 	path = docker
 	url = git@github.com:koromerzhin/docker.git
-[submodule "gist-box"]
-	path = gist-box
-	url = git@github.com:koromerzhin/gist-box.git
 [submodule "ansible"]
 	path = ansible
 	url = git@github.com:koromerzhin/ansible.git
