@@ -34,18 +34,6 @@ else
 	@npm run contributors
 endif
 
-.PHONY: docker
-docker: ## Command for docker
-ifeq ($(COMMAND_ARGS),image-pull)
-	@git submodule foreach make docker image-pull
-else
-	@echo "ARGUMENT missing"
-	@echo "---"
-	@echo "make docker ARGUMENT"
-	@echo "---"
-	@echo "image-pull: docker image pull"
-endif
-
 .PHONY: git
 git: node_modules ## Scripts GIT
 ifeq ($(COMMAND_ARGS),commit)
