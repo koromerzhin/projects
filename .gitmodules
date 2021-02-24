@@ -25,3 +25,6 @@
 [submodule "webcrawler"]
 	path = webcrawler
 	url = git@github.com:koromerzhin/webcrawler.git
+[submodule "streamchat"]
+	path = streamchat
+	url = git@github.com:koromerzhin/streamchat.git
