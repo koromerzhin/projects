@@ -49,12 +49,6 @@ make install
 make git check
 ```
 
-## Replace git commit
-
-```sh
-make git commit
-```
-
 ## Help
 
 ```sh
