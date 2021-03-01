@@ -28,3 +28,6 @@
 [submodule "streamchat"]
 	path = streamchat
 	url = git@github.com:koromerzhin/streamchat.git
+[submodule "kid-calendar"]
+	path = kid-calendar
+	url = git@github.com:koromerzhin/kid-calendar.git
